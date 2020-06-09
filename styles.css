@@ -1,0 +1,49 @@
+body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+  color:#000;
+  background:#fff;
+}
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
+
+#banner-message {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: 300px;
+}
+
+button {
+  background: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+}
+
+#banner-message.alt {
+  background: #0084ff;
+  color: #fff;
+  margin-top: 40px;
+  width: 200px;
+}
+
+#banner-message.alt button {
+  background: #fff;
+  color: #000;
+}
