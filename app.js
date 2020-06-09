@@ -1,12 +1,13 @@
  var bucket = new AWS.S3({
-   accessKeyId: "AKIAUAVMX5NTLHLGE6U5",
-   secretAccessKey: "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",
+   accessKeyId: "ACCESS_KEY",
+   secretAccessKey: "SECRETE_KEY",
+   sessionToken: "SESSION_TOKEN", // optional you can remove if you don't want pass
    region: 'us-east-1'
  });
 
  uploadfile = function(fileName, file, folderName) {
    const params = {
-     Bucket: "fileuploadprocess",
+     Bucket: "BUCKET_NAME",
      Key: folderName + fileName,
      Body: file,
      ContentType: file.type
