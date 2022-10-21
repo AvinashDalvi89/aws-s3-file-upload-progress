@@ -12,7 +12,7 @@
      Body: file,
      ContentType: file.type
    };
-   return this.bucket.upload(params, function(err, data) {
+   return bucket.upload(params, function(err, data) {
 
      if (err) {
        console.log('There was an error uploading your file: ', err);
