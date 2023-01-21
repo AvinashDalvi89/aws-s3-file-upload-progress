@@ -8,7 +8,13 @@ AWS S3 file upload with progress bar
 1. File Upload 
 2. Progress bar 
 
-## Blog 
+## Perquisite
+- AWS account
+- S3 bucket
+- CORS enable for S3 bucket 
+- IAM user with Secret key and access key
+
+## Step to follow given in below blog
 https://www.internetkatta.com/develop-progress-bar-for-aws-s3-file-upload-using-javascript
 
 ## Reference : 
